@@ -89,6 +89,13 @@ $messages['ia'] = array(
 	'hashtables-desc' => 'Functiones del analysator syntactic que permitte laborar con tabellas de hash in un "page scoped context"',
 );
 
+/** Italian (Italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'hashtables-desc' => 'Funzioni parser che permettono di lavorare con tabelle hash in una pagina con ambito di contesto',
+);
+
 /** Japanese (日本語)
  * @author Fryed-peach
  */
