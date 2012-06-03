@@ -103,6 +103,13 @@ $messages['ja'] = array(
 	'hashtables-desc' => 'ページをスコープとするコンテキストでハッシュテーブルを利用可能にするパーサー関数',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'hashtables-desc' => '문서 범위 맥락에서 해시 테이블을 사용할 수 있도록 하는 파서 함수',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
