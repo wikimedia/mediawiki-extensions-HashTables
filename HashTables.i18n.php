@@ -110,6 +110,13 @@ $messages['ko'] = array(
 	'hashtables-desc' => '문서 범위 맥락에서 해시 테이블을 사용할 수 있도록 하는 파서 함수',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'hashtables-desc' => 'Paaser-Funxjuhne för dynaamesch Varijable em Zusammehang met Atikelle.',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
