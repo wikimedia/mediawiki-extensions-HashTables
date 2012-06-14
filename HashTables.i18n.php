@@ -18,7 +18,7 @@ $messages['en'] = array(
 	'hashtables-desc' => 'Parser functions allowing to work with hash tables in a page scoped context',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -47,14 +47,14 @@ $messages['dsb'] = array(
 	'hashtables-desc' => 'Parserowe funkcije, kótarež zmóžnjaju asociatiwne datowe póla na wikibokach',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  */
 $messages['es'] = array(
 	'hashtables-desc' => "Funciones de analizador (parser) que permiten trabajar con tablas ''hash'' en el contexto de una página dada",
 );
 
-/** French (Français)
+/** French (français)
  * @author Gomoko
  */
 $messages['fr'] = array(
@@ -82,7 +82,7 @@ $messages['hsb'] = array(
 	'hashtables-desc' => 'Parserowe funkcije, kotrež tabele hašow (asociatiwne datowe pola) zmóžnjeja',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -124,7 +124,7 @@ $messages['lb'] = array(
 	'hashtables-desc' => 'Parserfonctiounen déi et erlabe fir mat assoziativen Datefelder (hash tables) am Kontext vu Wikisäiten ze schaffen',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -138,7 +138,7 @@ $messages['nl'] = array(
 	'hashtables-desc' => 'Parserfuncties die het mogelijk maken om met hashtabellen te werken in een paginacontext',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  */
 $messages['pl'] = array(
@@ -152,7 +152,7 @@ $messages['pms'] = array(
 	'hashtables-desc' => "Funsion ëd parser ch'a përmëtto ëd travajé con tàule ëd taj ant ël contest ëd na pàgina",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
