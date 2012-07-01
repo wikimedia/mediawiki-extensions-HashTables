@@ -25,7 +25,7 @@ $messages['ast'] = array(
 	'hashtables-desc' => 'Funciones analítiques que permiten trabayar con tables hash nun contestu de páxina',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
@@ -40,7 +40,7 @@ $messages['de'] = array(
 	'hashtables-desc' => 'Ergänzt Parserfunktionen die assoziative Datenfelder (Hashes) auf Wikiseiten ermöglichen sowie nutzbar machen',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -61,7 +61,7 @@ $messages['fr'] = array(
 	'hashtables-desc' => "Fonctions du parseur permettant de travailler avec des tables de hachage dans le contexte d'une page.",
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -75,7 +75,7 @@ $messages['he'] = array(
 	'hashtables-desc' => 'פונקציות מפענח שמאפשרות לעבוד עם טבלאות גיבוב בהקשר בתחום הדף',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
