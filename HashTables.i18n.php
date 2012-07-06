@@ -159,3 +159,10 @@ $messages['ru'] = array(
 	'hashtables-desc' => 'Функции парсера, позволяющие работать в хеш-таблицами на странице содержания',
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'hashtables-desc' => 'Mga tungkulin ng pambanghay na nagpapahintulot na gumawa sa piling ng mga talahanayan ng katadtaran sa loob ng isang diwang nasasaklawan ng pahina',
+);
+
