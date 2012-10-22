@@ -165,4 +165,3 @@ $messages['ru'] = array(
 $messages['tl'] = array(
 	'hashtables-desc' => 'Mga tungkulin ng pambanghay na nagpapahintulot na gumawa sa piling ng mga talahanayan ng katadtaran sa loob ng isang diwang nasasaklawan ng pahina',
 );
-
