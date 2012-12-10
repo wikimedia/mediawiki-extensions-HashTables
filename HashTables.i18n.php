@@ -165,3 +165,10 @@ $messages['ru'] = array(
 $messages['tl'] = array(
 	'hashtables-desc' => 'Mga tungkulin ng pambanghay na nagpapahintulot na gumawa sa piling ng mga talahanayan ng katadtaran sa loob ng isang diwang nasasaklawan ng pahina',
 );
+
+/** Ukrainian (українська)
+ * @author Ата
+ */
+$messages['uk'] = array(
+	'hashtables-desc' => 'Парсерні функції, що дозволяють працювати з хеш-таблицями на сторінці вмісту',
+);
