@@ -18,6 +18,13 @@ $messages['en'] = array(
 	'hashtables-desc' => 'Parser functions allowing to work with hash tables in a page scoped context',
 );
 
+/** Message documentation (Message documentation)
+ * @author Shirayuki
+ */
+$messages['qqq'] = array(
+	'hashtables-desc' => '{{desc|name=Hash Tables|url=http://www.mediawiki.org/wiki/Extension:HashTables}}',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
