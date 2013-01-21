@@ -159,6 +159,13 @@ $messages['pms'] = array(
 	'hashtables-desc' => "Funsion ëd parser ch'a përmëtto ëd travajé con tàule ëd taj ant ël contest ëd na pàgina",
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'hashtables-desc' => "Funzione analizzatrice ca permettere de fatià cu le tabbelle ''hash'' jndr'à 'na pàgene cu 'nu condeste specifiche",
+);
+
 /** Russian (русский)
  * @author Александр Сигачёв
  */
@@ -178,4 +185,11 @@ $messages['tl'] = array(
  */
 $messages['uk'] = array(
 	'hashtables-desc' => 'Парсерні функції, що дозволяють працювати з хеш-таблицями на сторінці вмісту',
+);
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'hashtables-desc' => '允许解析器函数在页面上下文范围内使用哈希表',
 );
