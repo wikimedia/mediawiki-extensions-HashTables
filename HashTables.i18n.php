@@ -44,7 +44,7 @@ $messages['be-tarask'] = array(
  * @author Kghbln
  */
 $messages['de'] = array(
-	'hashtables-desc' => 'Ergänzt Parserfunktionen die assoziative Datenfelder (Hashes) auf Wikiseiten ermöglichen sowie nutzbar machen',
+	'hashtables-desc' => 'Ergänzt Parserfunktionen die assoziative Datenfelder (Hashes) ermöglichen sowie nutzbar machen',
 );
 
 /** Lower Sorbian (dolnoserbski)
