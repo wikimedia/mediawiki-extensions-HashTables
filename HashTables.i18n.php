@@ -193,3 +193,10 @@ $messages['uk'] = array(
 $messages['zh-hans'] = array(
 	'hashtables-desc' => '允许解析器函数在页面上下文范围内使用哈希表',
 );
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
+ */
+$messages['zh-hant'] = array(
+	'hashtables-desc' => '容許解析器函數於頁面上下文範圍內使用在页面上下文范围内使用雜湊函數表',
+);
