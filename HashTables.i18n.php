@@ -61,6 +61,13 @@ $messages['es'] = array(
 	'hashtables-desc' => "Funciones de analizador (parser) que permiten trabajar con tablas ''hash'' en el contexto de una página dada",
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'hashtables-desc' => 'اجازه دادن عملیات تجزیه، به کار کردن با جدول‌های درهم در صفحهٔ متن محدود شده',
+);
+
 /** French (français)
  * @author Gomoko
  */
