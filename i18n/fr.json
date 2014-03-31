@@ -1,0 +1,8 @@
+{
+    "@metadata": {
+        "authors": [
+            "Gomoko"
+        ]
+    },
+    "hashtables-desc": "Fonctions du parseur permettant de travailler avec des tables de hachage dans le contexte d'une page."
+}
