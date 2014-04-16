@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Michawiki"
-        ]
-    },
-    "hashtables-desc": "Parserowe funkcije, kotrež tabele hašow (asociatiwne datowe pola) zmóžnjeja"
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"hashtables-desc": "Parserowe funkcije, kotrež tabele hašow (asociatiwne datowe pola) zmóžnjeja"
 }

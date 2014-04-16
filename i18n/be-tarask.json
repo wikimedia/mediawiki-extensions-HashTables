@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Wizardist"
-        ]
-    },
-    "hashtables-desc": "Функцыі парсэра для працы з гэш-табліцамі ў кантэксьце старонкі"
+	"@metadata": {
+		"authors": [
+			"Wizardist"
+		]
+	},
+	"hashtables-desc": "Функцыі парсэра для працы з гэш-табліцамі ў кантэксьце старонкі"
 }
