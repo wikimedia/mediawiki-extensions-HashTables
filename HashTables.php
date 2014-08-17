@@ -66,7 +66,7 @@ class ExtHashTables {
 	 * @var array
 	 * @private
 	 */
-    var $mHashTables = array();
+    public $mHashTables = array();
 
 	/**
 	 * Sets up parser functions
