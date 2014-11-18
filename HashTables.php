@@ -81,21 +81,21 @@ class ExtHashTables {
 		 */
 		$parser->mExtHashTables = new self();
 
-		// SFH_OBJECT_ARGS available since MW 1.12
+		// Parser::SFH_OBJECT_ARGS available since MW 1.12
 		self::initFunction( $parser, 'hashdefine' );
 		self::initFunction( $parser, 'hashsize' );
-		self::initFunction( $parser, 'hashvalue', SFH_OBJECT_ARGS );
-		self::initFunction( $parser, 'hashkeyexists', SFH_OBJECT_ARGS );
-		self::initFunction( $parser, 'hashprint', SFH_OBJECT_ARGS );
-		self::initFunction( $parser, 'parameterstohash', SFH_OBJECT_ARGS );
-		self::initFunction( $parser, 'hashtotemplate', SFH_OBJECT_ARGS );
-		self::initFunction( $parser, 'hashinclude', SFH_OBJECT_ARGS );
-		self::initFunction( $parser, 'hashexclude', SFH_OBJECT_ARGS );
-		self::initFunction( $parser, 'hashreset', SFH_OBJECT_ARGS );
-		self::initFunction( $parser, 'hashmerge', SFH_OBJECT_ARGS );
-		self::initFunction( $parser, 'hashmix', SFH_OBJECT_ARGS );
-		self::initFunction( $parser, 'hashdiff',  SFH_OBJECT_ARGS );
-		self::initFunction( $parser, 'hashintersect', SFH_OBJECT_ARGS );
+		self::initFunction( $parser, 'hashvalue', Parser::SFH_OBJECT_ARGS );
+		self::initFunction( $parser, 'hashkeyexists', Parser::SFH_OBJECT_ARGS );
+		self::initFunction( $parser, 'hashprint', Parser::SFH_OBJECT_ARGS );
+		self::initFunction( $parser, 'parameterstohash', Parser::SFH_OBJECT_ARGS );
+		self::initFunction( $parser, 'hashtotemplate', Parser::SFH_OBJECT_ARGS );
+		self::initFunction( $parser, 'hashinclude', Parser::SFH_OBJECT_ARGS );
+		self::initFunction( $parser, 'hashexclude', Parser::SFH_OBJECT_ARGS );
+		self::initFunction( $parser, 'hashreset', Parser::SFH_OBJECT_ARGS );
+		self::initFunction( $parser, 'hashmerge', Parser::SFH_OBJECT_ARGS );
+		self::initFunction( $parser, 'hashmix', Parser::SFH_OBJECT_ARGS );
+		self::initFunction( $parser, 'hashdiff',  Parser::SFH_OBJECT_ARGS );
+		self::initFunction( $parser, 'hashintersect', Parser::SFH_OBJECT_ARGS );
 
 		// if array extension is available, rgister array-hash interactions:
 		if( class_exists( 'ArrayExtension' ) || class_exists( 'ExtArrays' ) ) {
@@ -107,7 +107,7 @@ class ExtHashTables {
 	}
 	private static function initFunction( Parser &$parser, $name, $flags = 0 ) {
 		// all parser functions with prefix:
-		$prefix = ( $flags & SFH_OBJECT_ARGS ) ? 'pfObj_' : 'pf_';
+		$prefix = ( $flags & Parser::SFH_OBJECT_ARGS ) ? 'pfObj_' : 'pf_';
 		$functionCallback = array( __CLASS__, $prefix . $name );
 
 		$parser->setFunctionHook( $name, $functionCallback, $flags );
