@@ -1,15 +1,15 @@
 <?php
 
 /**
- * Defines a subset of parser functions to handle hash tables. Inspired by the ArrayExtension
- * (http://www.mediawiki.org/wiki/Extension:ArrayExtension).
+ * Defines a subset of parser functions to handle hash tables. Inspired by the Arrays extension
+ * (https://www.mediawiki.org/wiki/Extension:Arrays).
  *
  * @author:  Daniel Werner < danweetz@web.de >
  * @license: ISC license
  *
- * Documentation: http://www.mediawiki.org/wiki/Extension:HashTables
- * Support:       http://www.mediawiki.org/wiki/Extension_talk:HashTables
- * Source code:   http://svn.wikimedia.org/viewvc/mediawiki/trunk/extensions/HashTables
+ * Documentation: https://www.mediawiki.org/wiki/Extension:HashTables
+ * Support:       https://www.mediawiki.org/wiki/Extension_talk:HashTables
+ * Source code:   https://gerrit.wikimedia.org/r/p/mediawiki/extensions/HashTables
  *
  * @file HashTables.php
  * @ingroup HashTables
@@ -24,17 +24,20 @@
 if( ! defined( 'MEDIAWIKI' ) ) { die(); }
 
 $wgExtensionCredits['parserhook'][] = array(
-	'path'           => __FILE__,
-	'name'           => 'HashTables',
+	'path' => __FILE__,
+	'name' => 'HashTables',
 	'descriptionmsg' => 'hashtables-desc',
-	'version'        => ExtHashTables::VERSION,
-	'author'         => '[http://www.mediawiki.org/wiki/User:Danwe Daniel Werner]',
-	'url'            => 'https://www.mediawiki.org/wiki/Extension:HashTables',
+	'version' => ExtHashTables::VERSION,
+	'author' => array(
+		'[https://www.mediawiki.org/wiki/User:Danwe Daniel Werner]',
+		'...'
+	),
+	'url' => 'https://www.mediawiki.org/wiki/Extension:HashTables',
+	'license-name' => 'ISC'
 );
 
 // language files:
 $wgMessagesDirs['HashTables'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['HashTables'     ] = ExtHashTables::getDir() . '/HashTables.i18n.php';
 $wgExtensionMessagesFiles['HashTablesMagic'] = ExtHashTables::getDir() . '/HashTables.i18n.magic.php';
 
 // hooks registration:
@@ -58,7 +61,7 @@ class ExtHashTables {
 	 *
 	 * @var string
 	 */
-	const VERSION = '1.1.0 alpha';
+	const VERSION = '1.2.0';
 
 	/**
 	 * @since 0.1
