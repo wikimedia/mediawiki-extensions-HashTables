@@ -316,7 +316,7 @@ class ExtHashTables {
 
 		global $egHashTablesExpansionEscapeTemplates;
 		if( $egHashTablesExpansionEscapeTemplates === null ) {
-			// COMPATIBLITY-MODE - old behavior was to parse everything twice, following the old 'ArrayExtension'
+			// COMPATIBILITY-MODE - old behavior was to parse everything twice, following the old 'ArrayExtension'
 			/*
 			 * don't leave the final parse to Parser::braceSubstitution() since there are some special cases where it
 			 * would produce unexpected output (it uses a new child frame and ignores whether the frame is a template!)
