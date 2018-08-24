@@ -235,7 +235,7 @@ class ExtHashTables {
     }
 
 	/**
-	 * Allows to print all entries of a hash table seperated by a delimiter.
+	 * Allows to print all entries of a hash table separated by a delimiter.
 	 * Syntax:
 	 *   {{#hashprint:hashID |seperator |keyPattern |valuePattern |subject |printOrderArrayId}}
 	 */
@@ -598,7 +598,7 @@ class ExtHashTables {
         $hashId   = trim( $frame->expand($args[1] ) );
 		if( $egHashTablesExpansionEscapeTemplates === null ) {
 			// COMPATIBILITY-MODE
-			// third parameter is depreciated since 1.0 in case we can auto-escape
+			// third parameter is deprecated since 1.0 in case we can auto-escape
 			$pipeReplacer = isset($args[2]) ? trim( $frame->expand( $args[2] ) ) : '&#124;';
 		}
 
