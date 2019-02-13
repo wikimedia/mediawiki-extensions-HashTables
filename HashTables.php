@@ -951,9 +951,9 @@ class ExtHashTables {
 		if( ! preg_match( '/^([\\/\\|%]).*\\1[imsSuUx]*$/', $pattern ) ) {
 			return false;
 		}
-		wfSuppressWarnings(); // instead of using the evil @ operator!
+		Wikimedia\suppressWarnings(); // instead of using the evil @ operator!
 		$isValid = false !== preg_match( $pattern, ' ' ); // preg_match returns false on error
-		wfRestoreWarnings();
+		Wikimedia\restoreWarnings();
 		return $isValid;
 	}
 
