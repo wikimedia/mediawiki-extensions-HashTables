@@ -237,7 +237,7 @@ class ExtHashTables {
 	/**
 	 * Allows to print all entries of a hash table separated by a delimiter.
 	 * Syntax:
-	 *   {{#hashprint:hashID |seperator |keyPattern |valuePattern |subject |printOrderArrayId}}
+	 *   {{#hashprint:hashID |separator |keyPattern |valuePattern |subject |printOrderArrayId}}
 	 */
     static function pfObj_hashprint( Parser &$parser, PPFrame $frame, $args ) {
         $hashId = trim( $frame->expand( $args[0] ) );
@@ -251,7 +251,7 @@ class ExtHashTables {
 		// parameter validation:
 
 		global $wgLang;
-        $seperator = isset( $args[1] )
+        $separator = isset( $args[1] )
 				? trim( $frame->expand( $args[1] ) )
 				: $wgLang->getMessageFromDB( 'comma-separator' ); // use local languages default, for English ', '
 		/*
@@ -267,7 +267,7 @@ class ExtHashTables {
 
 		if( $subject === null ) {
 			// if there is no subject, there is no point in expanding. Faster!
-			return implode( $seperator, $hash );
+			return implode( $separator, $hash );
 		}
 
 		if( $printOrderArrayId !== null ) {
@@ -311,7 +311,7 @@ class ExtHashTables {
 			$renderedResults[] = $rawResult ;
         }
 
-        $output = implode( $seperator, $renderedResults );
+        $output = implode( $separator, $renderedResults );
 		unset( $renderedResults );
 
 		global $egHashTablesExpansionEscapeTemplates;
