@@ -3,7 +3,7 @@
 The 'HashTables' extension Enhances the parser with hash table functions and a function
 to store all parameters given to a template.
 
-* Website: http://www.mediawiki.org/wiki/Extension:HashTables
+* Website: https://www.mediawiki.org/wiki/Extension:HashTables
 * Author:  Daniel Werner < danweetz@web.de >
 * License: ISC license
 
@@ -17,10 +17,10 @@ MediaWiki 'extensions' directory. Then add the following code to your
  # HashTables
  require_once( "$IP/extensions/HashTables/HashTables.php" );
 
- 
+
 == Contributing ==
 
 If you have bug reports or feature requests, please add them to the 'HashTables'
 Talk page [0]. You can also send them to Daniel Werner < danweetz@web.de >
 
-[0] http://www.mediawiki.org/w/index.php?title=Extension_talk:HashTables
+[0] https://www.mediawiki.org/w/index.php?title=Extension_talk:HashTables

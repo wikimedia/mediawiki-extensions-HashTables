@@ -2,7 +2,7 @@
 
 /**
  * File defining the settings for the 'HashTables' extension.
- * More info can be found at http://www.mediawiki.org/wiki/Extension:HashTables#Configuration
+ * More info can be found at https://www.mediawiki.org/wiki/Extension:HashTables#Configuration
  *
  * NOTICE:
  * =======
@@ -24,12 +24,12 @@
  *
  * If set to null, 'HashTables' will jump into some kind of compatibility mode where it switches back to
  * old behavior on this matter.
- * 
+ *
  * In case 'Arrays' extension is included, this should get the value of '$egArraysExpansionEscapeTemplates'
  * which is the equivalent within 'Arrays' extension.
- * 
+ *
  * @example $egHashTablesExpansionEscapeTemplates = $egArraysExpansionEscapeTemplates
- * 
+ *
  * @since 1.0
  *
  * @var array|null
