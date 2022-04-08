@@ -47,6 +47,7 @@ $wgHooks['ParserClearState'   ][] = 'ExtHashTables::onParserClearState';
 // Include the settings file:
 require_once ExtHashTables::getDir() . '/HashTables_Settings.php';
 
+use Wikimedia\AtEase\AtEase;
 
 /**
  * Extension class with all the hash table functionality, also serves as store for hash tables per
@@ -951,9 +952,9 @@ class ExtHashTables {
 		if( ! preg_match( '/^([\\/\\|%]).*\\1[imsSuUx]*$/', $pattern ) ) {
 			return false;
 		}
-		Wikimedia\suppressWarnings(); // instead of using the evil @ operator!
+		AtEase::suppressWarnings(); // instead of using the evil @ operator!
 		$isValid = false !== preg_match( $pattern, ' ' ); // preg_match returns false on error
-		Wikimedia\restoreWarnings();
+		AtEase::restoreWarnings();
 		return $isValid;
 	}
 
