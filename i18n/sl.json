@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"hashtables-desc": "Funkcije razčlenjevalnika, ki omogočajo delo z zgoščenimi tabelami v kontekstu posamezne strani"
+}
