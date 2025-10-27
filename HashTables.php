@@ -652,7 +652,7 @@ class ExtHashTables {
 	 * @return array|null
 	 */
 	protected static function getArrayExtensionArray( $parser, $arrayId ) {
-		// null will be retunded if no array found
+		// null will be returned if no array found
 		$array = null;
 
 		if( class_exists( 'ExtArrays' ) ) {
