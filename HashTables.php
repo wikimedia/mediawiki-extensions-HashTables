@@ -239,7 +239,7 @@ class ExtHashTables {
 	 *   {{#hashprint:hashID |separator |keyPattern |valuePattern |subject |printOrderArrayId}}
 	 */
     static function pfObj_hashprint( Parser &$parser, PPFrame $frame, $args ) {
-        $hashId = trim( $frame->expand( $args[0] ) );
+		$hashId = trim( $frame->expand( $args[0] ) );
 		$hash = self::get( $parser )->getHash( $hashId );
 
 		if( $hash === null ) {
@@ -249,18 +249,18 @@ class ExtHashTables {
 
 		// parameter validation:
 
-		global $wgLang;
-        $separator = isset( $args[1] )
+		$separator = isset( $args[1] )
 				? trim( $frame->expand( $args[1] ) )
-				: $wgLang->getMessageFromDB( 'comma-separator' ); // use local languages default, for English ', '
+				// use local languages default, for English ', '
+				: $parser->msg( 'comma-separator' )->text();
 		/*
 		 * PPFrame::NO_ARGS and PPFrame::NO_TEMPLATES for expansion make a lot of sense here since the patterns getting replaced
 		 * in $subject before $subject is being parsed. So any template or argument influence in the patterns wouldn't make any
 		 * sense in any sane scenario.
 		 */
-        $keyPattern =        isset( $args[2] ) ? trim( $frame->expand( $args[2], PPFrame::NO_ARGS | PPFrame::NO_TEMPLATES ) ) : '';
-        $valuePattern =      isset( $args[3] ) ? trim( $frame->expand( $args[3], PPFrame::NO_ARGS | PPFrame::NO_TEMPLATES ) ) : '';
-        $subject =           isset( $args[4] ) ? trim( $frame->expand( $args[4], PPFrame::NO_ARGS | PPFrame::NO_TEMPLATES ) ) : null;
+		$keyPattern =        isset( $args[2] ) ? trim( $frame->expand( $args[2], PPFrame::NO_ARGS | PPFrame::NO_TEMPLATES ) ) : '';
+		$valuePattern =      isset( $args[3] ) ? trim( $frame->expand( $args[3], PPFrame::NO_ARGS | PPFrame::NO_TEMPLATES ) ) : '';
+		$subject =           isset( $args[4] ) ? trim( $frame->expand( $args[4], PPFrame::NO_ARGS | PPFrame::NO_TEMPLATES ) ) : null;
 		$printOrderArrayId = isset( $args[5] ) ? trim( $frame->expand( $args[5] ) ) : null;
 
 
@@ -283,7 +283,7 @@ class ExtHashTables {
 			$printOrderArray = array_keys( $hash );
 		}
 
-        $renderedResults = array();
+		$renderedResults = array();
 
 		foreach( $printOrderArray as $itemKey ) {
 			if( ! array_key_exists( $itemKey, $hash ) ) {
