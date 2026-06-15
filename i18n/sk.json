@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"hashtables-desc": "Funkcie syntaktického analyzátora umožňujúce prácu s hashovacími tabuľkami v rámci stránky"
+}
